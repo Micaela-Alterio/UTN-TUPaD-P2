@@ -116,6 +116,8 @@ hemisferio=int(input("Ingrese por favor en que hemisferio se encuentra.\
     \nUsar '1' para Norte o '2' para Sur: "))
 mes=int(input("Ingrese en que mes se encuentra (expresado en números): "))
 dia=int(input("Ingrese el día (expresado en números): "))
+#Estructura condicional que evalua los datos ingresados
+# e imprime por pantalla el resultado segun su clasificacion
 if (mes==12 and dia >=21) or mes==1 or mes==2 or (mes==3 and dia<21):
     if hemisferio==1:
         print ("Usted se encuentra en invierno.")
